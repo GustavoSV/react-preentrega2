@@ -5,13 +5,13 @@ const ItemDetail = ({id, titulo, autor, genero, tipo, idioma, stock, precio, img
     <div className="itemDetalleContenedor">
       <div className="itemDetalle">
         <img src={img} alt={titulo} />
-        <h3>{titulo}</h3>
-        <h6>Id: {id}</h6>
-        <p>Autor: {autor}</p>
+        <h2>{titulo}</h2>
+        <h4>Id: {id}</h4>
+        <h3>Autor: {autor}</h3>
         <p>Género: {genero}</p>
         <p>Idioma: {idioma}</p>
         <p>Disponible en: {tipo}</p>
-        <h4>Precio: {precio}</h4>
+        <h2>Precio: {precio}</h2>
       </div>
     </div>
   );

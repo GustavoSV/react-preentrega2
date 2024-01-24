@@ -11,7 +11,7 @@ const productos = [
     {id: "1010", titulo: "LOUIS WISHES YOU A COOL YULE", autor: "LOUIS ARMSTRONG", genero: "JAZZ", tipo: "VINILO", idioma: "INGLES", stock: 6, precio: 169000, img: "../img/LOUIS WISHES YOU A COOL YULE.GIF"},
     {id: "1011", titulo: "JACKSON 5 CHRISTMAS ALBUM", autor: "JACKSON 5IVE", genero: "JAZZ", tipo: "VINILO", idioma: "INGLES", stock: 7, precio: 169000, img: "../img/JACKSON 5 CHRISTMAS ALBUM.GIF"},
     {id: "1012", titulo: "SE MORIR", autor: "ANDRES CEPEDA", genero: "POP", tipo: "CD", idioma: "ESPAÑOL", stock: 5, precio: 155000, img: "../img/SE MORIR.GIF"},
-    {id: "1013", titulo: "GRRR LIVE!", autor: "THE ROLLING STONES", genero: "ROCK", tipo: "VINILO", idioma: "INGLES", stock: 4, precio: 475000, img: "./img/GRRR LIVE.GIF"},
+    {id: "1013", titulo: "GRRR LIVE!", autor: "THE ROLLING STONES", genero: "ROCK", tipo: "VINILO", idioma: "INGLES", stock: 4, precio: 475000, img: "../img/GRRR LIVE.GIF"},
     {id: "1014", titulo: "CALLE 13", autor: "CALLE 13", genero: "POP", tipo: "CD", idioma: "ESPAÑOL", stock: 3, precio: 130000, img: "../img/CALLE 13.GIF"},
     {id: "1015", titulo: "KRAKEN II", autor: "KRAKEN", genero: "ROCK EN ESPAÑOL", tipo: "VINILO", idioma: "ESPAÑOL", stock: 8, precio: 139000, img: "../img/KRAKEN II.GIF"},
     {id: "1016", titulo: "LA PACHANGA", autor: "VILMA PALMA E VAMPIROS", genero: "ROCK EN ESPAÑOL", tipo: "VINILO", idioma: "ESPAÑOL", stock: 5, precio: 185000, img: "../img/VILMA PALMA E VAMPIROS.GIF"},
@@ -19,6 +19,7 @@ const productos = [
     {id: "1018", titulo: "DYNAMO", autor: "SODA STEREO", genero: "ROCK EN ESPAÑOL", tipo: "VINILO", idioma: "ESPAÑOL", stock: 5, precio: 315000, img: "../img/DYNAMO.GIF"},
     {id: "1019", titulo: "COLORES SANTOS", autor: "GUSTAVO CERATI", genero: "ROCK EN ESPAÑOL", tipo: "VINILO", idioma: "ESPAÑOL", stock: 7, precio: 185000, img: "../img/COLORES SANTOS.GIF"},
     {id: "1020", titulo: "NADA PERSONAL", autor: "SODA STEREO", genero: "ROCK EN ESPAÑOL", tipo: "CD", idioma: "ESPAÑOL", stock: 6, precio: 315000, img: "../img/NADA PERSONAL.GIF"},
+    {id: "1021", titulo: "3980", autor: "VILMA PALMA E VAMPIROS", genero: "ROCK EN ESPAÑOL", tipo: "CD", idioma: "ESPAÑOL", stock: 4, precio: 185000, img: "../img/3980.GIF"},
 ]
 // géneros: JAZZ, POP, ROCK, ROCK  EN ESPAÑOL
 export const getProductos = () => {
